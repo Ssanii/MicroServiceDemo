@@ -9,5 +9,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer
 class DockerApplication
 
 fun main(args: Array<String>) {
+    println("我启动了!!")
     runApplication<DockerApplication>(*args)
 }
